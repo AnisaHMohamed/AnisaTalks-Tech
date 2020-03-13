@@ -1,6 +1,6 @@
 import React from 'react';
 import userConfig from '../../../config';
-import { AnimatedEmoji } from 'react-native-animated-emoji';
+
 import Container from '../Container';
 import HeaderImage from '../HeaderImage';
 import Social from '../Social';
@@ -14,6 +14,8 @@ function Header({ config }) {
 
   return (
     <Container>
+   
+
       <Wrapper>
         {userConfig.showHeaderImage && (
           <HeaderImage/>
