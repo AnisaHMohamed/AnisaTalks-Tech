@@ -9,14 +9,6 @@ import P from './P';
 import Link from './Link';
 import Wrapper from './Wrapper';
 
-const typewriter = word =>{
-  for (let i = 0;i <= word.length-1 ;i++) {
-    setTimeout(()=>{
-      process.stdout.write(word[i]);
-    
-    },50*i);}
-}
-
 function Header({ config }) {
   const { author, description, social } = config;
 
@@ -26,8 +18,8 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <H1><Link to="/">{typewriter(author)}</Link></H1>
-        <P>{typewriter(description)}</P>
+        <H1 class="line-1 anim-typewriter"><Link to="/">{author}</Link></H1>
+        <P>{description}</P>
         {social &&
           <Social
             website={social.website}
