@@ -7,7 +7,7 @@ module.exports = {
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://anisatalkstech.ca',
+    website: 'https://anisatalkstech.com',
     github: 'https://github.com/AnisaHMohamed',
     linkedin: 'https://ca.linkedin.com/in/anisa-mohamed',
   },
