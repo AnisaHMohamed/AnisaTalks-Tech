@@ -1,17 +1,16 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
+  title: 'Developer Blog', // Required
+  author: 'Anisa Mohamed', // Required
   description: 'Full-stack Web Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    website: 'https://anisatalkstech.ca',
+    github: 'https://github.com/AnisaHMohamed',
+    linkedin: 'https://ca.linkedin.com/in/anisa-mohamed',
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '',
+  siteUrl: 'https://anisatalkstech',
 };
