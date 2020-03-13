@@ -87,5 +87,10 @@ const GlobalStyle = createGlobalStyle`
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
 `;
 export default GlobalStyle;
