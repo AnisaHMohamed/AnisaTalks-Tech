@@ -11,6 +11,6 @@ module.exports = {
     github: 'https://github.com/AnisaHMohamed',
     linkedin: 'https://ca.linkedin.com/in/anisa-mohamed',
   },
-  pathPrefix: '',
+  pathPrefix: '/',
   siteUrl: 'https://anisatalkstech',
 };
