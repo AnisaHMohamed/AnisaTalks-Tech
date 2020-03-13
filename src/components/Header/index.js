@@ -19,7 +19,7 @@ function Header({ config }) {
           <HeaderImage/>
         )}
         <H1 class="line-1 anim-typewriter"><Link to="/">{author}</Link></H1>
-        <P>{description}</P>
+        <P class="line-1 anim-typewriter">{description}</P>
         {social &&
           <Social
             website={social.website}
