@@ -1,6 +1,8 @@
 ---
 title: Setting Up Your first React and Express App!
 date: "2020-03-13"
+featuredImage: './react-express.jpg'
+
 ---
 
 #### So you want to build an app with an express server?

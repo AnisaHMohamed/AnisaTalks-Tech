@@ -1,6 +1,6 @@
 ---
 title: Anisa Talks Tech!
-date: "2018-07-01"
+date: "2020-03-11"
 featuredImage: './featured.jpg'
 ---
 
