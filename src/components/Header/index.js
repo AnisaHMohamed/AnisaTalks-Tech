@@ -10,9 +10,9 @@ import Link from './Link';
 import Wrapper from './Wrapper';
 
 const typewriter = word =>{
-  for (let i = 0;i <= sentence.length-1 ;i++) {
+  for (let i = 0;i <= word.length-1 ;i++) {
     setTimeout(()=>{
-      process.stdout.write(sentence[i]);
+      process.stdout.write(word[i]);
     
     },50*i);}
 }
