@@ -12,6 +12,9 @@ Well I'll start by introducing myself. My name is Anisa Mohamed and I am Full St
 
 ## A little more about myself!
 
+
+[![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_h8lurX3nk9rrgb2eOqfIFY7q0rVVXCM467uySOGu2IjebQJB)](https://www.teach.cs.toronto.edu//csc258h-videos/20155/g4trang/v1.mp4)
+https://www.teach.cs.toronto.edu//csc258h-videos/20155/g4trang/v1.mp4
 Sed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.
 
 *   Morbi sit amet turpis a purus
