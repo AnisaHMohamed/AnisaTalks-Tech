@@ -9,6 +9,14 @@ import P from './P';
 import Link from './Link';
 import Wrapper from './Wrapper';
 
+const typewriter = word =>{
+  for (let i = 0;i <= sentence.length-1 ;i++) {
+    setTimeout(()=>{
+      process.stdout.write(sentence[i]);
+    
+    },50*i);}
+}
+
 function Header({ config }) {
   const { author, description, social } = config;
 
@@ -18,8 +26,8 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <H1><Link to="/">{author}</Link></H1>
-        <P>{description}</P>
+        <H1><Link to="/">{typewriter(author)}</Link></H1>
+        <P>{typewriter(description)}</P>
         {social &&
           <Social
             website={social.website}

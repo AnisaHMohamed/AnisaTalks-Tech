@@ -1,14 +1,16 @@
 ---
-title: Welcome to the Blog!
+title: Anisa Talks Tech!
 date: "2018-07-01"
 featuredImage: './featured.jpg'
 ---
 
-Welcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.
+So why am I talking?
+And why Tech...
+Well I'll start by introducing myself. My name is Anisa Mohamed and I am Full Stack Web Developer!
 
 <!-- end -->
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit
+## A little more about myself!
 
 Sed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.
 
