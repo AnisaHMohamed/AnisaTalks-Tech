@@ -10,8 +10,15 @@ import Container from '../components/Container';
 import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
 
+const IndexPage = ({ pageContext }) => {
+  const { group, index, pageCount } = pageContext;
+  const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
+  const nextUrl = (index + 1).toString();
 
-const c = document.getElementById("c");
+
+  
+  
+  const c = document.getElementById("c");
 const ctx = c.getContext("2d");
 let cH;
 let cW;
@@ -219,13 +226,11 @@ function fauxClick(x, y) {
   fauxClick.pageY = y;
   document.dispatchEvent(fauxClick);
 }
-
-const IndexPage = ({ pageContext }) => {
-  const { group, index, pageCount } = pageContext;
-  const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
-  const nextUrl = (index + 1).toString();
+  
+  
+  
+  
   return (
-    <canvas id="c">
     <Layout>
       <Container>
         <Helmet
@@ -256,7 +261,6 @@ const IndexPage = ({ pageContext }) => {
         />
       </Container>
     </Layout>
-    </canvas>
   );
 };
 export default IndexPage;
