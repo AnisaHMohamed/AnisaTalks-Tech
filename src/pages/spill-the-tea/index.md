@@ -4,8 +4,8 @@ date: "2020-03-18"
 featuredImage: './featured.jpg'
 
 ---
-# Spill The Tea ☕
-## Spill The Tea ☕ is a project I am currently Refractoring to ReactJs and here is a bit of a portfolio beofore my react Development!
+### Spill The Tea ☕
+### Spill The Tea ☕ is a project I am currently Refractoring to ReactJs and here is a bit of a portfolio beofore my react Development!
 
 >Checkout -> AnisaHMohamed.github.io/tweeter
 Spill the Tea is a beautiful single-page Twitter clone.
