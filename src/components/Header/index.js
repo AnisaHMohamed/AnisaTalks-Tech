@@ -24,7 +24,7 @@ function Header({ config }) {
         <P class="line-1 anim-typewriter">{description}</P>
         {social &&
           <Social
-            website={social.website}
+            resume={social.resume}
             github={social.github}
             twitter={social.twitter}
             linkedin={social.linkedin}
