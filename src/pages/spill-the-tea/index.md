@@ -1,7 +1,7 @@
 ---
 title: Spill The Tea ☕
 date: "2020-03-18"
-featuredImage: './new-tweet.gif'
+featuredImage: './featured.jpg'
 
 ---
 # Spill The Tea ☕
