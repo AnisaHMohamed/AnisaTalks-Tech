@@ -140,14 +140,7 @@ One of the easiest methods of deploying the blog would be to use [Netlify](https
 
 The options outlined above are not the only options available to you to deploy the blog. The official Gatsby documentation goes into detail about a number of other options. In order to read more about deployment options, [click here](https://www.gatsbyjs.org/docs/deploy-gatsby).
 
-## Changelog
 
-### 1.0.0
-* Initial release
-
-### 2.0.0
-* Upgrade to Gatsby 2.0.31 (Big thanks to [ttristan](https://github.com/ttristan) for the help)
-* Remove deprecated functions
 
 ## License
 

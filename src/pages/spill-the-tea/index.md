@@ -1,9 +1,24 @@
 ---
-title: Hello World
-date: "2018-06-30"
+title: Spill The Tea ☕
+date: "2020-03-18"
 ---
+# Spill The Tea ☕
+## Spill The Tea ☕ is a project I am currently Refractoring to ReactJs and here is a bit of a portfolio beofore my react Development!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. 
+Checkout -> AnisaHMohamed.github.io/tweeter
+Spill the Tea is a beautiful single-page Twitter clone.
+
+This app to showcases HTML, CSS, JS, jQuery, WebKit and AJAX front-end skills, as well as my Node, Express and MongoDB back-end skills
+
+This app is Responsive for Tablets, Cellular and Desktop Viewing
+
+## Final Product
+
+### Creating a new tweet
+!["Creating a new tweet"](https://github.com/AnisaHMohamed/tweeter/blob/master/docs/new-tweet.gif?raw=true)
+
+### Validating a tweet
+!["Validating a tweet"](https://github.com/AnisaHMohamed/tweeter/blob/master/docs/validation-tweet.gif?raw=true)
 
 <!-- end -->
 
