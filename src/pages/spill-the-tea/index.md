@@ -1,6 +1,8 @@
 ---
 title: Spill The Tea ☕
 date: "2020-03-18"
+featuredImage: './new-tweet.gif'
+
 ---
 # Spill The Tea ☕
 ## Spill The Tea ☕ is a project I am currently Refractoring to ReactJs and here is a bit of a portfolio beofore my react Development!
