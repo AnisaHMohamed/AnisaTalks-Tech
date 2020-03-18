@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Developer Blog', // Required
   author: 'Anisa Mohamed', // Required
-  description: "Full Stack Web Developer               \n      LANGUAGES: JavaScript, Typescript, HTML, CSS, Python, Ruby, Java, Verilog, LaTeX \n FRAMEWORKS, LIBRARIES AND ENVIORNMENTS: NodeJS, ReactJS, RAILS, React Native, Jquery(JSON), Ajax, Express, EJS, Bootstrap, SASS, Socket.IO, Axios, Web-Pack, ORM \n  TESTING:  JUnit, Mocha and Chai, Cypress, Jest, StoryBook\n SYSTEMS, CMS, AND DATABASES: PostgreSQL, NoSQL, SQL, Git, Github, MongoDB",
+  description: "Full Stack Web Developer",
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
