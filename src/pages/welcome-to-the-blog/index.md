@@ -1,6 +1,6 @@
 ---
 title: Anisa Talks Tech!
-date: "2020-03-11"
+date: "2020-03-20"
 featuredImage: './featured.jpg'
 ---
 So who am I?
@@ -12,15 +12,17 @@ And why Tech...?
 
 ## A little more about myself!
 My name is Anisa Mohamed and I am Full Stack Web Developer!
+Feel Free to check out my other posts or my [github](https://github.com/AnisaHMohamed) as they showcase the projects I'm working on!
 
 ## My Tech Stack:
-* LANGUAGES: 
+### * LANGUAGES: 
     * JavaScript, Typescript, HTML, CSS, Python, Ruby, Java, Verilog, LaTeX
-* FRAMEWORKS, LIBRARIES AND ENVIORNMENTS: 
-    * NodeJS, ReactJS, RAILS, React Native, Jquery(JSON), Ajax, Express, EJS, Bootstrap, SASS, Socket.IO, Axios, Web-Pack, ORM
-* TESTING:  
+### * FRAMEWORKS, LIBRARIES AND ENVIORNMENTS: 
+    * NodeJS, ReactJS, RAILS, React Native, Jquery(JSON), Ajax, Express, EJS
+    * Bootstrap, SASS, Socket.IO, Axios, Web-Pack, ORM
+### * TESTING:  
     * JUnit, Mocha and Chai, Cypress, Jest, StoryBook
-* SYSTEMS, CMS, AND DATABASES: 
+### * SYSTEMS, CMS, AND DATABASES: 
     * PostgreSQL, NoSQL, SQL, Git, Github, MongoDB
 
 ## Video Lectures for the University of Toronto:
