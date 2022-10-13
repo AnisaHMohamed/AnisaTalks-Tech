@@ -1,3 +1,16 @@
+.animation-display {
+  margin: 50px;
+}
+.animation-display-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.animation-name {
+  font-size: 50px;
+  padding: 50px;
+  color: #fff;
+}
 .ringContainer {
   top: 100px;
   width: 100%;
@@ -55,7 +68,7 @@
 
 .ringContainer .ring:nth-child(3) {
   animation: rotate2 4s linear infinite;
-  animation-delay: -3s;
+  animation-delay: -1.5s;
   position: absolute;
   top: -66.66px;
   border-top: 4px solid transparent;

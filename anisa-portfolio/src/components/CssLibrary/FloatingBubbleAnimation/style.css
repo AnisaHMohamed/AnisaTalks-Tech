@@ -14,10 +14,10 @@
   position: relative;
   width: 30px;
   height: 30px;
-  background: #ff6bb5;
+  background: #574caa;
   margin: 0 4px;
   border-radius: 50%;
-  box-shadow: 0 0 0 10px #ff6bb544, 0 0 50px #ff6bb5, 0 0 100px #ff6bb5;
+  box-shadow: 0 0 0 10px #574caa44, 0 0 50px #574caa, 0 0 100px #574caa;
   animation: bubble 15s linear infinite;
   animation-duration: calc(125s / var(--i));
 }
