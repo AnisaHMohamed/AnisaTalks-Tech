@@ -52,6 +52,7 @@
   box-shadow: 0 0 0 5px #93ff2d33, 0 0 0 10px #93ff2d22, 0 0 0 20px #93ff2d11,
     0 0 20px #93ff2d, 0 0 50px #93ff2d;
 }
+
 .ringContainer .ring:nth-child(3) {
   animation: rotate2 4s linear infinite;
   animation-delay: -3s;
@@ -74,6 +75,7 @@
   box-shadow: 0 0 0 5px #e11cf833, 0 0 0 10px #e11cf822, 0 0 0 20px #e11cf811,
     0 0 20px #e11cf8, 0 0 50px #e11cf8;
 }
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -83,6 +85,7 @@
     transform: rotate(360deg);
   }
 }
+
 @keyframes rotate2 {
   from {
     transform: rotate(360deg);

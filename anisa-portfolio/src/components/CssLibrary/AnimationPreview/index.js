@@ -1,25 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './style.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
-const AnimationPreview = ({ animationName }) =>
-{
-
+const AnimationPreview = ({ animationName }) => {
   return (
     <div className="animationContainer">
-      <Link to={`/${ animationName }`}>
+      <Link to={`/${animationName}`}>
         <ul>
           <li>
             <div className="details">
-              <p>
-                {animationName}
-              </p>
+              <p>{animationName}</p>
             </div>
           </li>
         </ul>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default AnimationPreview
+export default AnimationPreview;

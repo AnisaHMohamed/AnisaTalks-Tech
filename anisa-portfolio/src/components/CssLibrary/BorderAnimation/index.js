@@ -1,14 +1,14 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
-function Border() {
+const Border = () => {
   return (
     <div className="container">
-    <div className="box">
-    <span></span>
+      <div className="box">
+        <span></span>
+      </div>
     </div>
-    </div>
-    )
-}
+  );
+};
 
-export default Border
+export default Border;

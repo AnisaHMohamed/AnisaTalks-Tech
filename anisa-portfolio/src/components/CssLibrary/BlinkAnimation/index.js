@@ -1,13 +1,13 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
+
 const Blink = () => {
   return (
     <>
-    <div>Blink Animation</div>
-    <div class="blink"></div>
+      <div>Blink Animation</div>
+      <div class="blink"></div>
     </>
-  )
-}
+  );
+};
 
-
-export default Blink
+export default Blink;

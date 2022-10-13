@@ -1,11 +1,11 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
-function FloatingBubble()
-{
+const FloatingBubble = () => {
   return (
     <div className="container">
-      <div className="bubbles">FloatingBubble
+      <div className="bubbles">
+        FloatingBubble
         <span style={{ "--i": "11" }}></span>
         <span style={{ "--i": "12" }}></span>
         <span style={{ "--i": "24" }}></span>
@@ -25,10 +25,9 @@ function FloatingBubble()
         <span style={{ "--i": "17" }}></span>
         <span style={{ "--i": "13" }}></span>
         <span style={{ "--i": "28" }}></span>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FloatingBubble
+export default FloatingBubble;

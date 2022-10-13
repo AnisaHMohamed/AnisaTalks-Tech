@@ -1,7 +1,7 @@
-import React from 'react'
-import './style.css'
-const GlowingRingsOverlap = () =>
-{
+import React from "react";
+import "./style.css";
+
+const GlowingRingsOverlap = () => {
   return (
     <>
       <div>GlowingRingsOverlap</div>
@@ -11,8 +11,7 @@ const GlowingRingsOverlap = () =>
         <div className="ring"></div>
       </div>
     </>
-  )
-}
+  );
+};
 
-
-export default GlowingRingsOverlap
+export default GlowingRingsOverlap;
