@@ -5,7 +5,7 @@ import "./style.css";
 const Home = () => {
   return (
     <>
-      <p className="title">Welcome to a my CSS animations Libray!</p>
+      <p className="title">Let's talk CSS animations!</p>
       <div className="AnimationList">
         <AnimationPreview animationName={"Blink"} />
         <AnimationPreview animationName={"Border"} />

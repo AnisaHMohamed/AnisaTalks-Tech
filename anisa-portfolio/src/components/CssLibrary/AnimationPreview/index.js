@@ -5,8 +5,8 @@ import "./style.css";
 const AnimationPreview = ({ animationName }) => {
   return (
     <div className="animationContainer">
-      <Link to={`/${animationName}`}>
-        <ul>
+      <Link to={`${animationName}`}>
+        <ul className="animation-title">
           <li>
             <div className="details">
               <p>{animationName}</p>

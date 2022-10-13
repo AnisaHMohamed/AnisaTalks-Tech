@@ -6,6 +6,10 @@ animationContainer {
 a {
   text-decoration: none;
 }
+.animation-title li {
+  width: 100vw;
+  margin-bottom: 40px;
+}
 
 li {
   color: #fd1644;
