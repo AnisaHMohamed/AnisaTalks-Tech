@@ -7,22 +7,26 @@ function App(){
  
   window.addEventListener('scroll', () =>{
     let value = window.scrollY;
-   setPosition({...position,stars:{left:`${0.25*value}px`},moon:{top:`${1.05*value}px`}})
+   setPosition({...position,stars:{left:`${0.25*value}px`},moon:{top:`${1.05*value}px`},mountains_behind:{top:`${0.5*value}px`},mountains_front:{top:`${0*value}px`},text:{marginRight:`${4*value}px`, marginTop:`${1.5*value}px`},btn:{marginTop:`${1.5*value}px`},header:{top:`${0.5*value}px`}})
      console.log(position);
   })
+
+
+
+var elmntToView = document.getElementById("sec");
   return (
     <div className="App">
-      <Header/>
+      <Header top={position.header}/>
       <div className="App-body">
       <section>
       <img src="stars.png" id="stars" alt="stars" style={position.stars}/>
       <img src="moon.png" id="moon" alt="moon" style={position.moon}/>
-      <h2 id="text">Let's Talk About It</h2>
-      <a href="#" id="btn">Explore</a>
-      <img src="mountains_behind.png" id="mountains_behind" alt="mountains_behind"/>
-      <img src="mountains_front.png" id="mountains_front" alt="mountains_front"/>
+      <h2 id="text" style={position.text}>Let's Talk About It</h2>
+      <a href="#sec" id="btn" style={position.btn}>Explore</a>
+      <img src="mountains_behind.png" id="mountains_behind" alt="mountains_behind" style={position.mountains_behind}/>
+      <img src="mountains_front.png" id="mountains_front" alt="mountains_front"  style={position.mountains_front}/>
       </section>
-      <div className="sec">
+      <div className="sec" id="sec">
       <h2> Parallax scrolling</h2>
       <p>Cupcake cookie caramels lollipop cotton candy gummi bears I love gingerbread cake. Halvah cake toffee marshmallow ice cream sweet roll apple pie toffee. Macaroon I love sugar plum lemon drops chocolate bar muffin gummies bear claw. I love cake danish tart cake pastry pudding. Bonbon cotton candy sesame snaps jelly beans icing. Jujubes marzipan cake I love oat cake. Ice cream gingerbread icing tootsie roll wafer wafer powder. Candy canes pie candy I love pastry I love cake sweet roll. Cake cookie biscuit sweet roll caramels cotton candy marshmallow gummies sesame snaps. Chocolate cake icing I love I love wafer bonbon. Marzipan I love I love carrot cake marshmallow sweet. Macaroon I love cake halvah tart cookie soufflé apple pie gingerbread. Wafer cake dragée gingerbread pie I love tiramisu croissant. Chocolate cake chocolate carrot cake wafer gummies powder.
       </p>

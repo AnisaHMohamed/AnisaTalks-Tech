@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
-function Header()
+function Header({top})
 {
     return (
-        <header className="App-header">
+        <header style={top} className="App-header">
             <a
                 className="logo"
                 href="#"
