@@ -6,7 +6,7 @@ const Pulse = () => {
     <div className="animation-display">
     <p className="animation-name">Pulse Animation</p>
     <div className="animation-display-container">
-    <div class="pulse"/>
+    <div className="pulse"/>
     </div>
   </div>
   );

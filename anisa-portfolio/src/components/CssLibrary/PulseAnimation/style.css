@@ -1,7 +1,7 @@
 .pulse {
   content: "";
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   margin: 0 auto;
   border-radius: 100%;
   background-color: hotpink;

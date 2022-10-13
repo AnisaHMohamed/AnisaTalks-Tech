@@ -6,7 +6,7 @@ const Jiggle = () => {
     <div className="animation-display">
       <p className="animation-name">Jiggle Animation</p>
       <div className="animation-display-container">
-        <div class="jiggle" />
+        <div className="jiggle" />
       </div>
     </div>
   );

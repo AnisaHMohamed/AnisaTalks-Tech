@@ -6,7 +6,7 @@ const SpinAnimation = () => {
     <div className="animation-display">
     <p className="animation-name">Spin Animation</p>
     <div className="animation-display-container">
-    <div class="spin"/>
+    <div className="spin"/>
     </div>
   </div>
   );

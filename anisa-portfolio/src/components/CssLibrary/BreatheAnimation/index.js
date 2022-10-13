@@ -5,7 +5,7 @@ const BreatheAnimation = () => {
     <div className="animation-display">
     <p className="animation-name">Breathe Animation</p>
     <div className="animation-display-container">
-    <div class="breathe"/>
+    <div className="breathe"/>
     </div>
   </div>
   );

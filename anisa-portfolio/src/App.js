@@ -20,21 +20,16 @@ const App = () => {
       btn: { marginTop: `${1.5 * value}px` },
       header: { top: `${0.5 * value}px` },
     });
-    console.log(position);
   });
-  const animationRoutes = [];
+  // TODO: Displaying animaiton routes through loop very repetitive
+  // const animationRoutes = [];
 
-  useEffect(() => {
-    console.log(animations);
-  }, []);
-  for (let animation in animations) {
-    let currentAnimation = animations[animation];
-    console.log(currentAnimation);
-    animationRoutes.push(
-      `<Route  path="/${animation}" element={${currentAnimation}}/>`
-    );
-  }
-  console.log(animationRoutes, "<--");
+  // for (let animation in animations) {
+  //   let currentAnimation = animations[animation];
+  //   animationRoutes.push(
+  //     `<Route  path="/${animation}" element={${currentAnimation}}/>`
+  //   );
+  // }
   let blink = animations["Blink"]();
   let border = animations["Border"]();
   let bounce = animations["Bounce"]();

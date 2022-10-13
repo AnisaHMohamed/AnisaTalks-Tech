@@ -17,7 +17,6 @@ const Home = () => {
       btn: { marginTop: `${1.5 * value}px` },
       header: { top: `${0.5 * value}px` },
     });
-    console.log(position);
   });
 
   return (

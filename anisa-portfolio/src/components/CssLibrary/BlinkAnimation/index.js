@@ -6,7 +6,7 @@ const Blink = () => {
     <div className="animation-display">
       <p className="animation-name">Blink Animation</p>
       <div className="animation-display-container">
-      <div class="blink"/>
+      <div className="blink"/>
       </div>
     </div>
   );

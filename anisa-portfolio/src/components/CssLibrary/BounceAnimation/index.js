@@ -6,7 +6,7 @@ const Bounce = () => {
     <div className="animation-display">
     <p className="animation-name">Bounce Animation</p>
     <div className="animation-display-container">
-    <div class="bounce"/>
+    <div className="bounce"/>
     </div>
   </div>
   );
