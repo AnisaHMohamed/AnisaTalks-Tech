@@ -14,7 +14,7 @@ const Header = ({ top }) => {
           </a>
         </li>
         <li>
-          <a href="/css">About</a>
+          <a href="/css">Css Library</a>
         </li>
         <li>
           <a href="#">Work</a>

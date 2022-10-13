@@ -34,7 +34,7 @@ section img#mountains_front {
 }
 #text {
   position: absolute;
-  right: -510px;
+  right: -710px;
   white-space: nowrap;
   color: #fff;
   font-size: 7.5vw;
@@ -49,8 +49,13 @@ section img#mountains_front {
   columns: #2b1055;
   font-size: 1.5em;
   z-index: 9;
-  transform: translateY(130px);
+  transform: translateY(120px);
 }
+
+#btn:hover {
+  box-shadow: 0 5px 15px #0000004d;
+}
+
 .sec {
   position: relative;
   padding: 100px;

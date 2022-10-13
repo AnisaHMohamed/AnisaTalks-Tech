@@ -13,7 +13,7 @@ const Home = () => {
       moon: { top: `${1.05 * value}px` },
       mountains_behind: { top: `${0.5 * value}px` },
       mountains_front: { top: `${0 * value}px` },
-      text: { marginRight: `${4 * value}px`, marginTop: `${1.5 * value}px` },
+      text: { marginRight: `${5 * value}px`, marginTop: `${1.5 * value}px` },
       btn: { marginTop: `${1.5 * value}px` },
       header: { top: `${0.5 * value}px` },
     });
@@ -32,7 +32,7 @@ const Home = () => {
             Let's Talk About It
           </h2>
           <a href="#sec" id="btn" style={position.btn}>
-            Explore
+            More About Me
           </a>
           <img
             src="mountains_behind.png"
