@@ -3,10 +3,12 @@ import "./style.css";
 
 const SpinAnimation = () => {
   return (
-    <>
-      <div>SpinAnimation</div>
-      <div className="spin"></div>
-    </>
+    <div className="animation-display">
+    <p className="animation-name">Spin Animation</p>
+    <div className="animation-display-container">
+    <div class="spin"/>
+    </div>
+  </div>
   );
 };
 

@@ -1,7 +1,20 @@
+.animation-display {
+  margin: 50px;
+}
+.animation-display-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.animation-name {
+  font-size: 50px;
+  padding: 50px;
+  color: #fff;
+}
 .spin {
   content: "";
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   background: hotpink;
 }
 

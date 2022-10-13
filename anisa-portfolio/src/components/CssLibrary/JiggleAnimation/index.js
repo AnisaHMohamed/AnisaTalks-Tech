@@ -3,10 +3,12 @@ import "./style.css";
 
 const Jiggle = () => {
   return (
-    <>
-      <div>Jiggle Animation</div>
-      <div class="jiggle"></div>
-    </>
+    <div className="animation-display">
+      <p className="animation-name">Jiggle Animation</p>
+      <div className="animation-display-container">
+        <div class="jiggle" />
+      </div>
+    </div>
   );
 };
 
