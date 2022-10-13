@@ -1,0 +1,20 @@
+.spin {
+  content: "";
+  height: 50px;
+  width: 50px;
+  background: hotpink;
+}
+
+.spin {
+  animation: spin infinite 5s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

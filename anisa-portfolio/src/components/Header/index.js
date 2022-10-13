@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.css'
+import { Route } from 'react-router-dom'
+
 function Header({top})
 {
     return (
@@ -17,7 +19,7 @@ function Header({top})
                     <a href="#" className="active">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="/css">About</a>
                 </li>
                 <li>
                     <a href="#">Work</a>

@@ -1,0 +1,14 @@
+.blink {
+  content: "";
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: hotpink;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
