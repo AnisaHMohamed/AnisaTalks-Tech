@@ -1,11 +1,12 @@
-import React from "react";
 import AnimationPreview from "../AnimationPreview";
+import Header from "../../Header";
 import "./style.css";
 
-const Home = () => {
+const CssMain = () => {
   return (
     <>
-      <p className="title">Let's talk CSS animations!</p>
+    <Header activeTab={'Css'}/>
+    <p className="title">Let's talk CSS animations!</p>
       <div className="AnimationList">
         <AnimationPreview animationName={"Blink"} />
         <AnimationPreview animationName={"Border"} />
@@ -21,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CssMain;

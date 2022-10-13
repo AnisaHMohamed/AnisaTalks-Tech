@@ -1,7 +1,7 @@
-import React from "react";
 import "./style.css";
 
-const Header = ({ top }) => {
+const Header = ({ top, activeTab }) => {
+  
   return (
     <header style={top} className="App-header">
       <a className="logo" href="#" target="_blank" rel="noopener noreferrer">
@@ -9,18 +9,19 @@ const Header = ({ top }) => {
       </a>
       <ul>
         <li>
-          <a href="#" className="active">
+          <a href="/" className={activeTab  == 'Home' ? 'active' : ''}>
             Home
           </a>
         </li>
         <li>
-          <a href="/css">Css Library</a>
+        <a href="/css" className={activeTab  == 'Css' ? 'active' : ''} >
+        Css Library</a>
         </li>
         <li>
-          <a href="#">Work</a>
+          <a href="#" className={activeTab  == 'Crow' ? 'active' : ''}>Crow Hunt</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#" className={activeTab  == 'Crow' ? 'active' : ''}>Contact</a>
         </li>
       </ul>
     </header>

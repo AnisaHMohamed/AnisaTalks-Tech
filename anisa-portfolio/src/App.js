@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { animations } from "./components/CssLibrary/animations";
 import CssMain from "./components/CssLibrary/CssMain";
@@ -46,7 +46,7 @@ const App = () => {
         <header className="CssLibrary-header">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/css" element={<CssMain />} />
+            <Route path="/css" element={<CssMain  />} />
             <Route path="/css/blink" element={blink} />
             <Route path="/css/border" element={border} />
             <Route path="/css/bounce" element={bounce} />

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "../Header";
 import "./style.css";
 
-const Home = () => {
+const Home = ({activeTab, setActiveTab }) => {
   const [position, setPosition] = useState({});
 
   window.addEventListener("scroll", () => {
@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="Home">
       <header className="CssLibrary-header"></header>
-      <Header top={position.header} />
+      <Header activeTab={'Home'}  top={position.header} />
       <div className="Home-body">
         <section>
           <img src="stars.png" id="stars" alt="stars" style={position.stars} />
