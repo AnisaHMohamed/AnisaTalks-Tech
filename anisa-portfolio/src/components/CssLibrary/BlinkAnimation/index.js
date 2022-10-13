@@ -3,10 +3,12 @@ import "./style.css";
 
 const Blink = () => {
   return (
-    <>
-      <div>Blink Animation</div>
-      <div class="blink"></div>
-    </>
+    <div className="animation-display">
+      <p className="animation-name">Blink Animation</p>
+      <div className="animation-display-container">
+      <div class="blink"/>
+      </div>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ a {
 }
 
 li {
-  color: #fd1644;
+  color: #fff;
   list-style-type: none;
 }
 li:hover .details {
@@ -26,7 +26,7 @@ ul {
   transform: rotate(0deg) translate(0, 0);
   transition-property: transform;
   transition-duration: 0.3s;
-  background: white;
+  background: #311433;
   padding: 0.5em 0.5em 0.5em;
   border-radius: 4px;
   margin-left: 75px;

@@ -1,7 +1,20 @@
+.animation-display {
+  margin: 50px;
+}
+.animation-display-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.animation-name {
+  font-size: 50px;
+  padding: 50px;
+  color: #fff;
+}
 .blink {
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   background: hotpink;
   animation: blinker 1s linear infinite;

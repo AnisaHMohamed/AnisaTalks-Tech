@@ -1,9 +1,10 @@
-.container {
+.animation-display {
+  margin: 50px;
+}
+.animation-display-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100px;
-  min-height: 100px;
+  width: 100vw;
 }
 .box {
   position: relative;
@@ -17,7 +18,7 @@
   overflow: hidden;
 }
 .box::after {
-  content: " ";
+  content: "";
   position: absolute;
   width: 500px;
   height: 500px;
@@ -47,9 +48,11 @@
 .box span {
   position: absolute;
   inset: 5px;
-  background: #282c34;
+  background: #788fc7;
   z-index: 1;
   border-radius: 16px;
+  color: #fff;
+  display: flex;
 }
 .box h2 {
   position: relative;
