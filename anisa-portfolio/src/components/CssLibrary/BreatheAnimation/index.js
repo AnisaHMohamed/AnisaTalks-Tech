@@ -2,10 +2,12 @@ import React from "react";
 import "./style.css";
 const BreatheAnimation = () => {
   return (
-    <>
-      <div>Breath Animation</div>
-      <div className="breathe"></div>
-    </>
+    <div className="animation-display">
+    <p className="animation-name">Breathe Animation</p>
+    <div className="animation-display-container">
+    <div class="breathe"/>
+    </div>
+  </div>
   );
 };
 

@@ -1,9 +1,9 @@
 .bounce {
   content: "";
   background-color: #81f4e1;
-  height: 50px;
+  height: 100px;
   margin: 0 auto 0 auto;
-  width: 50px;
+  width: 100px;
   animation: bounce 2s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
 }
 @keyframes bounce {
